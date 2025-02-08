@@ -1,0 +1,72 @@
+/* Page Styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Editor Container Styles */
+.editor-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Editor Title Styles */
+.editor-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 10px;
+}
+
+/* User Count Styles */
+.user-count {
+    font-size: 16px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+/* Status Indicator Styles */
+.status-indicator {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.status-indicator.online {
+    color: #4caf50;
+}
+
+.status-indicator.offline {
+    color: #f44336;
+}
+
+/* Textarea Styles */
+.editor-textarea {
+    width: 95%;
+    height: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editor-textarea:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
