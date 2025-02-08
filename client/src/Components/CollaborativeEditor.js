@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./CollaborativeEditor.css"; // Import the CSS file
 
 // Initialize a connection to the backend server using Socket.IO
-const socket = io("http://localhost:3001");
+const socket = io("https://edittogether-api.onrender.com:3001");
 
 export default function CollaborativeEditor() {
     // Initialize state variables for text, users count, and online status
